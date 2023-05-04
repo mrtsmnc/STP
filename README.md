@@ -29,15 +29,15 @@ The bridge with the lowest priority becomes the root bridge in the root bridge s
 
 
 Bandwidth 	 STP Cost
- 4 Mbps	        250
- 10 Mbps	      100
- 16 Mbps	       62
- 45 Mbps	       39
- 100 Mbps	       19
- 155 Mbps	       14
- 622 Mbps      	 6
- 1 Gbps	         4
- 10 Gbps	       2
+ 4 Mbps	        250 ,
+ 10 Mbps	      100,
+ 16 Mbps	       62,
+ 45 Mbps	       39,
+ 100 Mbps	       19,
+ 155 Mbps	       14,
+ 622 Mbps      	 6,
+ 1 Gbps	         4,
+ 10 Gbps	       2,
  
  
  
