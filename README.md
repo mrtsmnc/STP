@@ -8,10 +8,15 @@ In networks actively using the Spanning Tree Protocol, there is one root bridge 
 Some Spanning Tree Terminology:
 
 Bridge ID: The MAC address of a switch is its bridge ID. It is important for selecting the root bridge in the network.
+
 Non-root bridge: All bridges except the root bridge are non-root bridges.
+
 Root port: The root port is always the port that is directly connected to the root bridge or closest to it.
+
 Designated port cost: Considered when there are multiple non-root connections between two switches. It is calculated based on the bandwidth.
+
 Bridge Protocol Data Unit (BPDU): All switches and bridges included in the same local area network (LAN) communicate with each other via BPDU messages in the spanning-tree protocol. BPDU messages contain information such as the switch priority, port priority, port value, and MAC address. The spanning-tree protocol uses this information to select the root bridge, root port, and designated port.
+
 Convergence: Convergence occurs when all ports of switches and bridges transition from blocking state to forwarding state. No data is transmitted until convergence is complete. All devices must be updated before data transmission can resume. Convergence is important to ensure that all devices have the same database, but it takes some time.
 
 
